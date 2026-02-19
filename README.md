@@ -9,7 +9,7 @@ Melalui integrasi basis data terbuka **OpenFoodFacts** dan kecerdasan buatan (AI
 
 ## 📸 Screenshot Aplikasi
 
-<img src="1.png" alt="Screenshot Beranda" height="450">
+<img src="1.PNG" alt="Screenshot Beranda" height="450">
 
 ---
 
