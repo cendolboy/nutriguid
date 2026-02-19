@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/svg+xml" href="assets/icon1.png" />
+    <title>NutriGuide - Cerdas Memilih, Sehat Mengonsumsi</title>
+	
+	<meta name="description" content="NutriGuide adalah asisten gizi cerdas berbasis AI untuk masyarakat Indonesia. Scan produk, pahami label nutrisi, dan mulai hidup sehat bersama NutriGuide.">
+    <meta name="keywords" content="NutriGuide, Gizi AI, Edukasi Kesehatan, OpenFoodFacts Indonesia, Amos Duan Nugroho, Scan Makanan, Literasi Gizi">
+    <meta name="author" content="Amos Duan Nugroho S.Kom">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nutriguide.id/">
+    <meta property="og:title" content="NutriGuide - Edukasi Gizi Berbasis AI">
+    <meta property="og:description" content="Solusi cerdas membaca label gizi dan memantau konsumsi Gula, Garam, dan Lemak (GGL) berbasis teknologi AI.">
+    <meta property="og:image" content="https://github.com/cendolboy/nutriguid/raw/main/1.PNG">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="NutriGuide - Edukasi Gizi Berbasis AI">
+    <meta property="twitter:description" content="Dibangun oleh Amos Duan Nugroho S.Kom untuk meningkatkan literasi gizi digital Indonesia.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4 d-flex align-items-center gap-2" href="#">
+				<img src="assets/icon1.png" alt="Logo NutriGuide" style="height: 32px; width: auto; object-fit: contain;">
+				<span class="text-gradient">NutriGuide</span>
+			</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto align-items-center">
+					<li class="nav-item">
+						<a class="nav-link px-3" href="#beranda">
+							<i class="bi bi-house-door me-1"></i> Beranda
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="#latar-belakang">
+							<i class="bi bi-exclamation-circle me-1"></i> Masalah
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="#fitur">
+							<i class="bi bi-cpu me-1"></i> Fitur AI
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="#manfaat">
+							<i class="bi bi-trophy me-1"></i> Manfaat
+						</a>
+					</li>
+					
+					<li class="nav-item ms-lg-3">
+						<a href="https://github.com/cendolboy/nutriguid/blob/main/README.md" 
+						   target="_blank" 
+						   class="btn btn-dark rounded-pill px-4 d-flex align-items-center gap-2 shadow-sm">
+							<i class="bi bi-github fs-5"></i>
+							<span style="font-weight: 600; letter-spacing: 0.5px;">THE BLUEPRINT</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <span class="badge bg-light text-success border border-success px-3 py-2 rounded-pill mb-3">
+                        <i class="bi bi-stars me-1"></i> Didukung OpenFoodFacts & Gemini AI
+                    </span>
+                    <h1 class="display-4 fw-bold mb-3 lh-sm">
+                        Cerdas Memilih,<br>
+                        <span class="text-gradient">Sehat Mengonsumsi.</span>
+                    </h1>
+                    <p class="lead text-muted mb-4">
+                        Asisten gizi digital yang membantu Anda membaca label nutrisi, mendeteksi gula tersembunyi, dan memberikan analisis kesehatan instan berbasis AI.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-primary-custom btn-lg px-4">
+                            <i class="bi bi-qr-code-scan me-2"></i> Scan Produk
+                        </a>
+                        <a href="#latar-belakang" class="btn btn-outline-secondary btn-lg px-4 rounded-pill text-decoration-none">
+                            Pelajari Riset
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 text-center">
+                    <img src="https://github.com/cendolboy/nutriguid/raw/main/1.PNG" alt="NutriGuide Home" class="img-screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="latar-belakang" class="section-padding bg-light-pattern">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-3">Rencana Penelitian</h2>
+                    <p class="text-muted">Transformasi edukasi gizi untuk masyarakat Indonesia yang lebih sehat dan kritis terhadap pangan olahan.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card feature-card p-4">
+                        <div class="icon-box bg-danger bg-opacity-10 text-danger">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h5 class="fw-bold">Masalah Kesehatan</h5>
+                        <p class="text-muted small mb-0">Tren peningkatan PTM seperti diabetes berkaitan erat dengan pola makan dan konsumsi produk instan.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card p-4">
+                        <div class="icon-box bg-warning bg-opacity-10 text-warning">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <h5 class="fw-bold">Rumusan Masalah</h5>
+                        <p class="text-muted small mb-0">Bagaimana menyederhanakan label gizi kompleks agar mudah dipahami secara objektif oleh orang awam?</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card p-4">
+                        <div class="icon-box bg-primary bg-opacity-10 text-primary">
+                            <i class="bi bi-bullseye"></i>
+                        </div>
+                        <h5 class="fw-bold">Tujuan Riset</h5>
+                        <p class="text-muted small mb-0">Membangun Decision Support System (DSS) untuk konversi data teknis menjadi info praktis bagi konsumen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fitur" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <img src="https://github.com/cendolboy/nutriguid/raw/main/3.PNG" alt="Scan Barcode" class="img-screenshot mb-4">
+                        </div>
+                        <div class="col-6 mt-5">
+                            <img src="https://github.com/cendolboy/nutriguid/raw/main/4.PNG" alt="Analisis AI" class="img-screenshot">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1 mt-4 mt-lg-0">
+                    <h2 class="fw-bold mb-4">Fitur Utama NutriGuide</h2>
+                    <div class="d-flex mb-4">
+                        <div class="icon-box bg-success text-white rounded-circle flex-shrink-0" style="width: 48px; height: 48px;"><i class="bi bi-qr-code-scan fs-5"></i></div>
+                        <div class="ms-3"><h5 class="fw-bold">Scan & Detect</h5><p class="text-muted small">Cukup scan barcode produk untuk menarik data real-time dari database OpenFoodFacts.</p></div>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <div class="icon-box bg-success text-white rounded-circle flex-shrink-0" style="width: 48px; height: 48px;"><i class="bi bi-robot fs-5"></i></div>
+                        <div class="ms-3"><h5 class="fw-bold">AI Nutritionist</h5><p class="text-muted small">Algoritma cerdas memberikan penilaian kesehatan objektif berdasarkan standar gizi nasional.</p></div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="icon-box bg-success text-white rounded-circle flex-shrink-0" style="width: 48px; height: 48px;"><i class="bi bi-journal-text fs-5"></i></div>
+                        <div class="ms-3"><h5 class="fw-bold">Literasi GGL</h5><p class="text-muted small">Panduan khusus untuk mengawasi kandungan Gula, Garam, dan Lemak (GGL) pada setiap produk.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="manfaat" class="section-padding bg-gradient-primary text-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Dampak Nyata Penelitian</h2>
+                <p class="opacity-75">Memberikan manfaat luas bagi berbagai pemangku kepentingan.</p>
+            </div>
+            <div class="row g-4 text-dark">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 rounded-4 shadow p-4">
+                        <div class="mb-3">
+                            <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-2 rounded-pill">Masyarakat</span>
+                        </div>
+                        <h5 class="fw-bold">Panduan Praktis</h5>
+                        <p class="text-muted small mb-0">
+                            Memperoleh panduan instan dalam memilih produk di supermarket, meningkatkan literasi gizi, dan mencegah penyakit degeneratif sejak dini.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 rounded-4 shadow p-4">
+                        <div class="mb-3">
+                            <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 rounded-pill">Ahli Gizi</span>
+                        </div>
+                        <h5 class="fw-bold">Alat Bantu Konseling</h5>
+                        <p class="text-muted small mb-0">
+                            Memiliki database digital terorganisir untuk analisis produk instan secara <em>real-time</em>, memperluas jangkauan edukasi tanpa kendala manualitas.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 rounded-4 shadow p-4">
+                        <div class="mb-3">
+                            <span class="badge bg-warning bg-opacity-10 text-warning px-3 py-2 rounded-pill">Pemerintah</span>
+                        </div>
+                        <h5 class="fw-bold">Dukung GERMAS</h5>
+                        <p class="text-muted small mb-0">
+                            Mendukung program Gerakan Masyarakat Hidup Sehat melalui digitalisasi informasi pangan dan validasi data produk lokal Indonesia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-3">Siap Menjadi Konsumen Cerdas?</h2>
+                    <p class="text-muted mb-4">
+                        Mulai langkah kecil untuk kesehatan jangka panjang. Cek kandungan makananmu sekarang juga dengan NutriGuide.
+                    </p>
+                    <a href="https://github.com/cendolboy/nutriguid/blob/main/README.md" target="_blank" class="btn btn-primary-custom text-white btn-lg px-5 shadow-lg">
+                        TECHNICAL DOCS <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                    <p class="mt-3 small text-muted">Tidak perlu instalasi. Dapat diakses langsung dari browser.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light pt-5 pb-3 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a class="d-flex align-items-center gap-2 text-decoration-none text-dark mb-3" href="#">
+                        <i class="bi bi-heart-pulse-fill text-success fs-5"></i>
+                        <span class="fw-bold fs-5">NutriGuide</span>
+                    </a>
+                    <p class="small text-muted">
+                        Transformasi edukasi gizi berbasis OpenFoodFacts dan Artificial Intelligence untuk Indonesia yang lebih sehat.
+                    </p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold mb-3">Navigasi</h6>
+                    <ul class="list-unstyled small text-muted d-flex flex-column gap-2">
+                        <li><a href="#beranda" class="text-decoration-none text-muted">Beranda</a></li>
+                        <li><a href="#fitur" class="text-decoration-none text-muted">Fitur</a></li>
+                        <li><a href="#manfaat" class="text-decoration-none text-muted">Manfaat</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold mb-3">Data & Sumber</h6>
+                    <ul class="list-unstyled small text-muted d-flex flex-column gap-2">
+                        <li><a href="https://world.openfoodfacts.org/" target="_blank" class="text-decoration-none text-muted">OpenFoodFacts DB</a></li>
+                        <li><a href="https://layanandata.kemkes.go.id/katalog-data/riskesdas/visualisasi-data/gizi" target="_blank" class="text-decoration-none text-muted">Riskesdas Kemenkes</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Google Gemini AI</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+					<h6 class="fw-bold mb-3">Hubungi Saya</h6>
+					<p class="small text-muted mb-2">
+						<i class="bi bi-envelope me-2"></i> amosduan.ad@gmail.com
+					</p>
+					<p class="small text-muted mb-3">
+						<i class="bi bi-geo-alt me-2"></i> Bandung, Indonesia
+					</p>
+					<div class="d-flex gap-3">
+						<a href="http://linkedin.com/in/amosduan" target="_blank" class="text-muted fs-5 transition-hover">
+							<i class="bi bi-linkedin"></i>
+						</a>
+						<a href="https://github.com/cendolboy" target="_blank" class="text-muted fs-5 transition-hover">
+							<i class="bi bi-github"></i>
+						</a>
+					</div>
+				</div>
+            </div>
+            <div class="row pt-4 border-top mt-2">
+                <div class="col-12 text-center small text-muted">
+                    &copy; 2026 NutriGuide Research Project. All rights reserved. - Amos Duan Nugroho, S.Kom
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
