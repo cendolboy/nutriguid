@@ -1,4 +1,4 @@
-:root {
+		:root {
             --primary-green: #10b981;
             --dark-green: #059669;
             --light-green: #d1fae5;
@@ -99,3 +99,146 @@
             font-size: 24px;
             margin-bottom: 20px;
         }
+		
+		/* Style Tambahan untuk Badge agar Interaktif */
+		.badge-credential {
+			background: #fdfdfd;
+			border: 1px solid #eee;
+			padding: 8px 16px;
+			border-radius: 12px;
+			font-size: 0.85rem;
+			font-weight: 500;
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			color: #444;
+			transition: all 0.3s ease;
+		}
+
+		.badge-credential:hover {
+			transform: translateY(-3px);
+			border-color: #10b981;
+			background: #f0fff4;
+		}
+
+		.badge-credential-link {
+			background: #10b981;
+			color: white;
+			text-decoration: none;
+			padding: 8px 16px;
+			border-radius: 12px;
+			font-size: 0.85rem;
+			font-weight: 600;
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			transition: all 0.3s ease;
+		}
+
+		.badge-credential-link:hover {
+			background: #059669;
+			color: white;
+			transform: translateY(-3px);
+			box-shadow: 0 5px 15px rgba(16, 185, 129, 0.3);
+		}
+		
+		.extra-small {
+			font-size: 0.7rem;
+		}
+		
+		/* --- INTERACTIVE RESEARCHER SECTION --- */
+		.researcher-wrapper {
+			position: relative;
+			padding: 100px 0;
+			overflow: hidden;
+		}
+
+		.researcher-blob {
+			position: absolute;
+			top: 10%;
+			left: -5%;
+			width: 300px;
+			height: 300px;
+			background: var(--primary-green);
+			filter: blur(80px);
+			opacity: 0.1;
+			z-index: -1;
+		}
+
+		.profile-frame {
+			position: relative;
+			display: inline-block;
+		}
+
+		.profile-frame::before {
+			content: '';
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			right: -20px;
+			bottom: -20px;
+			border: 2px solid var(--primary-green);
+			border-radius: 30px;
+			z-index: 0;
+			transition: 0.4s;
+		}
+
+		.profile-frame:hover::before {
+			top: 10px;
+			left: 10px;
+			right: -10px;
+			bottom: -10px;
+		}
+
+		.researcher-img-interactive {
+			position: relative;
+			z-index: 1;
+			filter: grayscale(100%) contrast(1.1);
+			border-radius: 30px;
+			transition: 0.5s all ease;
+			object-fit: cover;
+			box-shadow: 20px 20px 60px rgba(0,0,0,0.1);
+		}
+
+		.researcher-img-interactive:hover {
+			filter: grayscale(0%) contrast(1);
+			transform: translateY(-10px);
+		}
+
+		.story-card {
+			background: rgba(255, 255, 255, 0.8);
+			backdrop-filter: blur(10px);
+			border: 1px solid rgba(255,255,255,0.3);
+			border-radius: 30px;
+			padding: 40px;
+			box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+			margin-left: -50px;
+			z-index: 2;
+			position: relative;
+		}
+
+		@media (max-width: 991px) {
+			.story-card {
+				margin-left: 0;
+				margin-top: 40px;
+			}
+		}
+
+		.role-tag {
+			font-size: 0.8rem;
+			font-weight: 600;
+			letter-spacing: 1px;
+			color: var(--primary-green);
+			text-transform: uppercase;
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		.quote-icon {
+			font-size: 2rem;
+			color: var(--primary-green);
+			opacity: 0.2;
+			position: absolute;
+			top: 20px;
+			right: 30px;
+		}
