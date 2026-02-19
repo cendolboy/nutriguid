@@ -1,0 +1,101 @@
+:root {
+            --primary-green: #10b981;
+            --dark-green: #059669;
+            --light-green: #d1fae5;
+            --text-dark: #1f2937;
+            --text-muted: #6b7280;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, .navbar-brand {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%);
+        }
+
+        /* --- NAVBAR --- */
+        .navbar {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+
+        .btn-primary-custom {
+            background-color: var(--primary-green);
+            border: none;
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary-custom:hover {
+            background-color: var(--dark-green);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            color: white;
+        }
+
+        /* --- IMAGE STYLES --- */
+        .img-screenshot {
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            width: 100%;
+        }
+
+        .img-screenshot:hover {
+            transform: translateY(-10px);
+        }
+
+        /* --- SECTIONS --- */
+        .hero-section {
+            padding: 140px 0 80px;
+        }
+
+        .section-padding {
+            padding: 80px 0;
+        }
+
+        .bg-light-pattern {
+            background-color: #f9fafb;
+            background-image: radial-gradient(#10b981 0.5px, transparent 0.5px);
+            background-size: 20px 20px;
+        }
+
+        .feature-card {
+            border: none;
+            border-radius: 16px;
+            transition: all 0.3s;
+            height: 100%;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
