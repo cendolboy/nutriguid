@@ -10,7 +10,13 @@ Melalui integrasi basis data terbuka **OpenFoodFacts** dan kecerdasan buatan (AI
 ## 📸 Screenshot Aplikasi
 
 <img src="1.PNG" alt="Screenshot Beranda" height="450">
-
+<img src="2.PNG" alt="Screenshot Beranda" height="450">
+<img src="3.PNG" alt="Screenshot Beranda" height="450">
+<img src="4.PNG" alt="Screenshot Beranda" height="450">
+<img src="5.PNG" alt="Screenshot Beranda" height="450">
+<img src="6.PNG" alt="Screenshot Beranda" height="450">
+<img src="7.PNG" alt="Screenshot Beranda" height="450">
+<img src="8.PNG" alt="Screenshot Beranda" height="450">
 ---
 
 ## 📖 Latar Belakang & Motivasi
