@@ -9,7 +9,7 @@ Melalui integrasi basis data terbuka **OpenFoodFacts** dan kecerdasan buatan (AI
 
 ## 📸 Screenshot Aplikasi
 
-<img src="https://raw.githubusercontent.com/cendolboy/nutriguid/main/1.png" alt="Screenshot Beranda" height="450">
+<img src="1.png" alt="Screenshot Beranda" height="450">
 
 ---
 
