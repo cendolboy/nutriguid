@@ -9,17 +9,8 @@ Melalui integrasi basis data terbuka **OpenFoodFacts** dan kecerdasan buatan (AI
 
 ## 📸 Screenshot Aplikasi
 
-![Screenshot Beranda](https://raw.githubusercontent.com/cendolboy/nutriguid/main/1.jpg)  
+<img src="https://raw.githubusercontent.com/cendolboy/nutriguid/main/1.png" alt="Screenshot Beranda" height="450">
 *Beranda NutriGuide dengan navigasi utama dan pencarian produk.*
-
-![Screenshot Analisis Gizi](https://raw.githubusercontent.com/cendolboy/nutriguid/main/2.PNG)  
-*Evaluasi kandungan GGL dengan AI Nutrition Consultant.*
-
-![Screenshot Traffic Light](https://raw.githubusercontent.com/cendolboy/nutriguid/main/3.PNG)  
-*Sistem Traffic Light menampilkan skor kesehatan produk.*
-
-![Screenshot Traffic Light](https://raw.githubusercontent.com/cendolboy/nutriguid/main/4.PNG)  
-*Sistem Traffic Light menampilkan skor kesehatan produk.*
 
 ---
 
