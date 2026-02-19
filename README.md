@@ -5,6 +5,7 @@
 
 Melalui integrasi basis data terbuka **OpenFoodFacts** dan kecerdasan buatan (AI) dari **Google Gemini 2.5 Flash**, aplikasi ini mentransformasi label gizi yang kompleks menjadi wawasan kesehatan yang mudah dipahami.
 
+# 🔗 Rencana Penelitian : https://docs.google.com/document/d/1nOc99xIppPzFxJ-WkiZKNzPdCZ9BSGIHaOG4N0D46Pc/edit?usp=sharing 
 ---
 
 ## 📸 Screenshot Aplikasi
