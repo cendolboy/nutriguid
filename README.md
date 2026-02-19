@@ -9,14 +9,24 @@ Melalui integrasi basis data terbuka **OpenFoodFacts** dan kecerdasan buatan (AI
 
 ## 📸 Screenshot Aplikasi
 
-<img src="1.PNG" alt="Screenshot Beranda" height="450">
-<img src="2.PNG" alt="Screenshot Beranda" height="450">
-<img src="3.PNG" alt="Screenshot Beranda" height="450">
-<img src="4.PNG" alt="Screenshot Beranda" height="450">
-<img src="5.PNG" alt="Screenshot Beranda" height="450">
-<img src="6.PNG" alt="Screenshot Beranda" height="450">
-<img src="7.PNG" alt="Screenshot Beranda" height="450">
-<img src="8.PNG" alt="Screenshot Beranda" height="450">
+<table align="center">
+  <tr>
+    <td><img src="1.PNG" alt="Screenshot 1" height="450"></td>
+    <td><img src="2.PNG" alt="Screenshot 2" height="450"></td>
+    <td><img src="3.PNG" alt="Screenshot 3" height="450"></td>
+  </tr>
+  <tr>
+    <td><img src="4.PNG" alt="Screenshot 4" height="450"></td>
+    <td><img src="5.PNG" alt="Screenshot 5" height="450"></td>
+    <td><img src="6.PNG" alt="Screenshot 6" height="450"></td>
+  </tr>
+  <tr>
+    <td><img src="7.PNG" alt="Screenshot 7" height="450"></td>
+    <td><img src="8.PNG" alt="Screenshot 8" height="450"></td>
+    <td></td> <!-- Kolom kosong agar tetap rapi -->
+  </tr>
+</table>
+
 ---
 
 ## 📖 Latar Belakang & Motivasi
