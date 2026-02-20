@@ -3,7 +3,7 @@
 
 **NutriGuide adalah** platform inovatif yang dirancang untuk membantu Ahli Gizi di Indonesia dalam memberikan edukasi dan informasi komprehensif kepada masyarakat mengenai bahan pangan olahan, termasuk makanan olahan dan instan.
 
-Melalui integrasi basis data terbuka **United States Food and Drug Administration (Open US FDA)** dan teknologi kecerdasan buatan dari Google Gemini 2.5 Flash, aplikasi ini mengubah informasi label gizi yang kompleks menjadi wawasan yang mudah dipahami. NutriGuide membantu masyarakat mengenali kandungan gizi, memahami batas konsumsi yang dianjurkan, serta membuat pilihan makan yang lebih sehat, terukur, dan sesuai kebutuhan individu.
+Melalui integrasi basis data terbuka **United States Food and Drug Administration (Open US FDA)** dan teknologi kecerdasan buatan dari **OpenClaw AI**, aplikasi ini mengubah informasi label gizi yang kompleks menjadi wawasan yang mudah dipahami. NutriGuide membantu masyarakat mengenali kandungan gizi, memahami batas konsumsi yang dianjurkan, serta membuat pilihan makan yang lebih sehat, terukur, dan sesuai kebutuhan individu.
 
 ---
 
@@ -78,7 +78,7 @@ Meningkatnya angka Penyakit Tidak Menular (PTM) seperti diabetes dan hipertensi 
 | Frontend | React.js + NextJS |
 | UI Framework | Bootstrap 5 & Lucide Icons |
 | Database API | United States Food and Drug Administration (Open US FDA) |
-| AI Engine | Google Gemini 2.5 Flash |
+| AI Engine | OpenClaw AI |
 
 ---
 
