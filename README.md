@@ -52,19 +52,17 @@ Meningkatnya angka Penyakit Tidak Menular (PTM) seperti diabetes dan hipertensi 
 
 ## ✨ Fitur Utama
 
-- 🔍 **Pencarian Cepat**  
-  Akses instan ke basis data produk pangan lokal (Indonesia) dan internasional.
+- 🔍 **Pencarian Cepat** Akses instan ke basis data produk pangan lokal (Indonesia) dan internasional (Open US FDA).
 
-- 🧪 **AI Nutrition Consultant**  
-  - Skor kesehatan (1–10)  
-  - Evaluasi GGL  
-  - Dampak konsumsi jangka panjang  
-  - Rekomendasi alternatif lebih sehat  
+- ⚖️ **Nutri Match (New)** Fitur perbandingan produk *head-to-head* menggunakan sistem **NutriVerdict**. Menggunakan algoritma *Nutrient Profiling System* (NPS) yang mengadaptasi standar internasional seperti **Nutri-Score (Eropa)** dan **Health Star Rating (Australia)**. Fitur ini menilai kualitas kandungan nutrisi secara mendalam, bukan sekadar jumlah kalori.
 
-- 🚦 **Traffic Light System**  
-  - 🟢 Rendah  
-  - 🟡 Sedang  
-  - 🔴 Tinggi  
+- 🧪 **AI Nutrition Consultant** - Skor kesehatan (0–100) berbasis NutriVerdict  
+  - Evaluasi GGL (Gula, Garam, Lemak)  
+  - Analisis dampak konsumsi jangka panjang  
+  - Rekomendasi alternatif lebih sehat secara instan  
+
+- 🚦 **Traffic Light System** Visualisasi status nutrisi berdasarkan kategori:
+  - 🟢 **Rendah/Sehat** - 🟡 **Sedang** - 🔴 **Tinggi/Batasi** - 📱 **Mobile-First Design** Antarmuka responsif dan ringan, dirancang untuk penggunaan langsung di supermarket atau ruang konseling gizi.
 
 - 📱 **Mobile-First Design**  
   Antarmuka responsif dan ringan, dirancang untuk penggunaan langsung di supermarket atau ruang konseling.
