@@ -22,8 +22,8 @@ Melalui integrasi basis data terbuka **United States Food and Drug Administratio
   </tr>
   <tr>
     <td><img src="7.jpeg" alt="Screenshot 7" height="450"></td>
-    <td></td>
-    <td></td> <!-- Kolom kosong agar tetap rapi -->
+    <td><img src="9.jpg" alt="Screenshot 7" height="450"></td>
+    <td><img src="8.jpg" alt="Screenshot 7" height="450"></td>
   </tr>
 </table>
 
