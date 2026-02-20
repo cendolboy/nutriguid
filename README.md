@@ -1,9 +1,9 @@
 # 🌿 NutriGuide  
 ## Cerdas Memilih, Sehat Mengonsumsi
 
-**NutriGuide** adalah platform inovatif yang dirancang untuk membantu Ahli Gizi di Indonesia dalam mengedukasi masyarakat mengenai konsumsi produk pangan olahan instan.  
+**NutriGuide adalah** platform inovatif yang dirancang untuk membantu Ahli Gizi di Indonesia dalam memberikan edukasi dan informasi komprehensif kepada masyarakat mengenai bahan pangan olahan, termasuk makanan olahan dan instan.
 
-Melalui integrasi basis data terbuka **Open US FDA** dan kecerdasan buatan (AI) dari **Google Gemini 2.5 Flash**, aplikasi ini mentransformasi label gizi yang kompleks menjadi wawasan kesehatan yang mudah dipahami.
+Melalui integrasi basis data terbuka **United States Food and Drug Administration (Open US FDA)** dan teknologi kecerdasan buatan dari Google Gemini 2.5 Flash, aplikasi ini mengubah informasi label gizi yang kompleks menjadi wawasan yang mudah dipahami. NutriGuide membantu masyarakat mengenali kandungan gizi, memahami batas konsumsi yang dianjurkan, serta membuat pilihan makan yang lebih sehat, terukur, dan sesuai kebutuhan individu.
 
 ---
 
