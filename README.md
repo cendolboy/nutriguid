@@ -3,7 +3,7 @@
 
 **NutriGuide** adalah platform inovatif yang dirancang untuk membantu Ahli Gizi di Indonesia dalam mengedukasi masyarakat mengenai konsumsi produk pangan olahan instan.  
 
-Melalui integrasi basis data terbuka **OpenFoodFacts** dan kecerdasan buatan (AI) dari **Google Gemini 2.5 Flash**, aplikasi ini mentransformasi label gizi yang kompleks menjadi wawasan kesehatan yang mudah dipahami.
+Melalui integrasi basis data terbuka **Open US FDA** dan kecerdasan buatan (AI) dari **Google Gemini 2.5 Flash**, aplikasi ini mentransformasi label gizi yang kompleks menjadi wawasan kesehatan yang mudah dipahami.
 
 ---
 
@@ -11,18 +11,18 @@ Melalui integrasi basis data terbuka **OpenFoodFacts** dan kecerdasan buatan (AI
 
 <table align="center">
   <tr>
-    <td><img src="1.PNG" alt="Screenshot 1" height="450"></td>
-    <td><img src="2.PNG" alt="Screenshot 2" height="450"></td>
-    <td><img src="3.PNG" alt="Screenshot 3" height="450"></td>
+    <td><img src="1.jpeg" alt="Screenshot 1" height="450"></td>
+    <td><img src="2.jpeg" alt="Screenshot 2" height="450"></td>
+    <td><img src="3.jpeg" alt="Screenshot 3" height="450"></td>
   </tr>
   <tr>
-    <td><img src="4.PNG" alt="Screenshot 4" height="450"></td>
-    <td><img src="5.PNG" alt="Screenshot 5" height="450"></td>
-    <td><img src="6.PNG" alt="Screenshot 6" height="450"></td>
+    <td><img src="4.jpeg" alt="Screenshot 4" height="450"></td>
+    <td><img src="5.jpeg" alt="Screenshot 5" height="450"></td>
+    <td><img src="6.jpeg" alt="Screenshot 6" height="450"></td>
   </tr>
   <tr>
-    <td><img src="7.PNG" alt="Screenshot 7" height="450"></td>
-    <td><img src="8.PNG" alt="Screenshot 8" height="450"></td>
+    <td><img src="7.jpeg" alt="Screenshot 7" height="450"></td>
+    <td><img src="8.jpeg" alt="Screenshot 8" height="450"></td>
     <td></td> <!-- Kolom kosong agar tetap rapi -->
   </tr>
 </table>
@@ -75,9 +75,9 @@ Meningkatnya angka Penyakit Tidak Menular (PTM) seperti diabetes dan hipertensi 
 
 | Layer | Teknologi |
 |-------|-----------|
-| Frontend | React.js + Vite |
+| Frontend | React.js + NextJS |
 | UI Framework | Bootstrap 5 & Lucide Icons |
-| Database API | OpenFoodFacts World API (v0/v2) |
+| Database API | Open US FDA |
 | AI Engine | Google Gemini 2.5 Flash |
 
 ---
