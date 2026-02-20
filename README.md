@@ -77,7 +77,7 @@ Meningkatnya angka Penyakit Tidak Menular (PTM) seperti diabetes dan hipertensi 
 |-------|-----------|
 | Frontend | React.js + NextJS |
 | UI Framework | Bootstrap 5 & Lucide Icons |
-| Database API | Open US FDA |
+| Database API | United States Food and Drug Administration (Open US FDA) |
 | AI Engine | Google Gemini 2.5 Flash |
 
 ---
