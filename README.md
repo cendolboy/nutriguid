@@ -62,10 +62,10 @@ Meningkatnya angka Penyakit Tidak Menular (PTM) seperti diabetes dan hipertensi 
   - Rekomendasi alternatif lebih sehat secara instan  
 
 - 🚦 **Traffic Light System** Visualisasi status nutrisi berdasarkan kategori:
-  - 🟢 **Rendah/Sehat** - 🟡 **Sedang** - 🔴 **Tinggi/Batasi** - 📱 **Mobile-First Design** Antarmuka responsif dan ringan, dirancang untuk penggunaan langsung di supermarket atau ruang konseling gizi.
+  - 🟢 **Rendah/Sehat** - 🟡 **Sedang** - 🔴 **Tinggi/Batasi**
 
-- 📱 **Mobile-First Design**  
-  Antarmuka responsif dan ringan, dirancang untuk penggunaan langsung di supermarket atau ruang konseling.
+- 📱 **Mobile-First Design**
+  Antarmuka responsif dan ringan, dirancang untuk penggunaan langsung di supermarket atau ruang konseling gizi.
 
 ---
 
